@@ -1,0 +1,9 @@
+Perceptron:
+  name        : "Perceptron"
+  bio         : "Machine Learning | Mathematics | AI"
+  avatar      : "/assets/profile.jpg"
+  location    : "Mumbai"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Perceptron59"
