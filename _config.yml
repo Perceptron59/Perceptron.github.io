@@ -1,5 +1,9 @@
 title: Perceptron.ai
 description: Machine Learning, Mathematics, and AI
+
+url: "https://perceptron59.github.io"
+baseurl: ""
+
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
