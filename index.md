@@ -1,6 +1,6 @@
 ---
-layout: single
-title: "Perceptron.ai"
+layout: home
 author_profile: false
-toc: false
+title: "Perceptron.ai"
+classes: wide
 ---
