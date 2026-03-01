@@ -1,0 +1,12 @@
+---
+---
+
+/* Override Minimal Mistakes variables BEFORE importing theme */
+$background-color: #000000;
+$text-color: #e6e6e6;
+$link-color: #ffffff;
+$link-color-hover: #cccccc;
+$border-color: #222222;
+
+/* Import theme after variable overrides */
+@import "minimal-mistakes";
