@@ -3,17 +3,165 @@
 
 @import "minimal-mistakes";
 
-/* Minimal refinements only */
+/* ============================= */
+/* GLOBAL DARK FOUNDATION        */
+/* ============================= */
 
 body {
-  background-color: #000 !important;
+  background-color: #000000 !important;
+  color: #f2f2f2 !important;
 }
+
+/* ============================= */
+/* HEADER / NAV                  */
+/* ============================= */
+
+.masthead,
+.greedy-nav {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #222222 !important;
+}
+
+.greedy-nav a {
+  color: #ffffff !important;
+}
+
+.greedy-nav a:hover {
+  color: #cccccc !important;
+}
+
+/* ============================= */
+/* LINKS                         */
+/* ============================= */
+
+a {
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #cccccc !important;
+  text-decoration: underline;
+}
+
+/* Remove teal accent on post titles */
+.archive__item-title a {
+  color: #ffffff !important;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* ============================= */
+/* HOMEPAGE STRUCTURE            */
+/* ============================= */
 
 .page {
   max-width: 1150px;
 }
 
+.archive {
+  max-width: 750px;
+}
+
+/* ============================= */
+/* CONTENT TYPOGRAPHY            */
+/* ============================= */
+
 .page__content {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  max-width: 750px;
+}
+
+.page__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+/* Section headers */
+h2 {
+  border-bottom: 1px solid #222222;
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+/* ============================= */
+/* SIDEBAR                       */
+/* ============================= */
+
+.sidebar {
+  background-color: #000000 !important;
+  font-size: 0.95rem;
+}
+
+.sidebar .nav__title {
+  border-bottom: 1px solid #222222;
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.sidebar a {
+  color: #bbbbbb !important;
+}
+
+.sidebar a:hover {
+  color: #ffffff !important;
+}
+
+/* ============================= */
+/* TOC (Right Panel)             */
+/* ============================= */
+
+.toc {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.toc a {
+  color: #aaaaaa !important;
+}
+
+.toc a:hover {
+  color: #ffffff !important;
+}
+
+/* ============================= */
+/* CODE BLOCKS                   */
+/* ============================= */
+
+pre {
+  background-color: #111111 !important;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 1rem !important;
+  overflow-x: auto;
+}
+
+code {
+  background-color: #111111 !important;
+}
+
+/* ============================= */
+/* FOOTER                        */
+/* ============================= */
+
+.page__footer {
+  background-color: #000000 !important;
+  border-top: 1px solid #111111 !important;
+  color: #888888 !important;
+}
+
+/* ============================= */
+/* REMOVE RANDOM LIGHT BLOCKS    */
+/* ============================= */
+
+.page__inner-wrap,
+.initial-content,
+.archive,
+.page__meta {
+  background-color: #000000 !important;
 }
