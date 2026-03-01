@@ -1,11 +1,7 @@
 ---
+layout: post
 title: "The Essence of Linear Regression"
 date: 2025-01-01
-layout: single
-sidebar:
-  nav: "docs"
-toc: true
-toc_sticky: true
 ---
 The Essence of Linear Regression
 
