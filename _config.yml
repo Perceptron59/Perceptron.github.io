@@ -1,10 +1,12 @@
-title: Your Blog Name
+title: Perceptron.ai
 description: Machine Learning, Mathematics, and AI
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "dark"
+
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-
-sass:
-  sass_dir: assets
-  style: compressed
