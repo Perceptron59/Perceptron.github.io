@@ -9,3 +9,7 @@ plugins:
 markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
+collections:
+  glossary:
+    output: true
+    permalink: /machine-learning-glossary/:path/
