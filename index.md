@@ -1,12 +1,13 @@
 ---
 layout: single
-title: ""
-author_profile: false
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 # Perceptron.ai
 
-Applied AI • Machine Learning • Mathematics
+Applied AI · Machine Learning · Mathematics
 
 ---
 
@@ -19,6 +20,4 @@ Mathematics, and Artificial Intelligence from first principles.
 
 ## Writing
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+- [The Essence of Linear Regression](/2025/01/01/linear-regression/)
