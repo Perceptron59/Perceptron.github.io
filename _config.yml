@@ -1,14 +1,7 @@
-title: "Perceptron.ai"
-description: "Applied AI · Machine Learning · Mathematics"
-
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-include-cache
+title: Perceptron.ai
+description: Applied AI • Machine Learning • Mathematics
+baseurl: ""
+url: "https://perceptron59.github.io"
 
 markdown: kramdown
-
-paginate: 5
-paginate_path: /page:num/
-
 permalink: /:year/:month/:day/:title/
