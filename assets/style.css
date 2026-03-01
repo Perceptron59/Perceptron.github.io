@@ -34,7 +34,7 @@ body {
 }
 
 .content {
-  width: 800px;
+  width: 1000px;
   margin: 4rem auto;
 }
 
@@ -64,10 +64,11 @@ a:hover {
 
 pre {
   background: #111;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
   border: 1px solid #222;
   border-radius: 6px;
   overflow-x: auto;
+  font-size: 0.9rem;
 }
 
 .footer {
