@@ -1,8 +1,7 @@
 ---
 title: "The Essence of Linear Regression"
-layout: single
 date: 2025-01-01
-author_profile: true
+layout: single
 ---
 
 The Essence of Linear Regression
