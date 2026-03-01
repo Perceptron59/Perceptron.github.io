@@ -1,10 +1,8 @@
 ---
-layout: single
 title: "The Essence of Linear Regression"
+layout: single
 date: 2025-01-01
-author: Perceptron
-toc: true
-toc_sticky: true
+author_profile: true
 ---
 
 The Essence of Linear Regression
