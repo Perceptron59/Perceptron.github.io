@@ -3,32 +3,45 @@
 
 @import "minimal-mistakes";
 
-/* FORCE BLACK THEME */
-
+/* GLOBAL BLACK BACKGROUND */
+html,
 body {
   background-color: #000000 !important;
   color: #e6e6e6 !important;
 }
 
+/* Remove white content wrappers */
+.initial-content,
+.layout--home,
 .page,
 .page__content,
 .masthead,
-.site-footer {
+.greedy-nav,
+.site-footer,
+.page__footer {
   background-color: #000000 !important;
 }
 
+/* Remove footer gray block */
+.page__footer {
+  border-top: 1px solid #111 !important;
+}
+
+/* Links */
 a {
   color: #ffffff !important;
 }
 
 a:hover {
-  color: #cccccc !important;
+  color: #aaaaaa !important;
 }
 
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ffffff !important;
+}
+
+/* Horizontal lines */
 hr {
   border-color: #222222 !important;
-}
-
-.sidebar {
-  background-color: #000000 !important;
 }
