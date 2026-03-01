@@ -1,16 +1,11 @@
-title: Perceptron.ai
-description: Machine Learning, Mathematics, and AI
+title: "Perceptron.ai"
+description: "Applied AI · Machine Learning · Mathematics"
 
-url: "https://perceptron59.github.io"
-baseurl: ""
-
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "dark"
-
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
+
+permalink: /:year/:month/:day/:title/
