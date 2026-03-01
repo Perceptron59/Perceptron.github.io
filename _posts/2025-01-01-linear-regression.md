@@ -1,10 +1,10 @@
 ---
 title: "The Essence of Linear Regression"
-date: 2025-01-01
 layout: single
-author_profile: false
 sidebar:
   nav: "main"
+toc: true
+toc_sticky: true
 ---
 
 The Essence of Linear Regression
