@@ -5,13 +5,17 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* ===================== */
+/* NAVBAR */
+/* ===================== */
+
 .navbar {
   border-bottom: 1px solid #111;
   padding: 1rem 0;
 }
 
-.nav-container {
-  width: 1000px;
+.nav-inner {
+  width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -28,18 +32,61 @@ body {
   color: #aaa;
 }
 
-.logo a {
-  font-weight: 700;
-  font-size: 1.2rem;
+/* ===================== */
+/* GRID LAYOUT */
+/* ===================== */
+
+.layout {
+  width: 1200px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 3rem;
 }
 
-.content {
-  width: 1000px;
-  margin: 4rem auto;
+/* ===================== */
+/* SIDEBAR */
+/* ===================== */
+
+.sidebar {
+  border-right: 1px solid #111;
+  padding-right: 1.5rem;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.7rem;
+}
+
+.sidebar a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* ===================== */
+/* MAIN CONTENT */
+/* ===================== */
+
+.main-content {
+  max-width: 800px;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
 }
 
@@ -47,6 +94,11 @@ h2 {
   border-bottom: 1px solid #222;
   padding-bottom: 0.4rem;
   margin-top: 2rem;
+}
+
+.post-meta {
+  color: #777;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -57,23 +109,27 @@ a:hover {
   color: #aaa;
 }
 
-.post-meta {
-  color: #777;
-  margin-bottom: 2rem;
-}
+/* ===================== */
+/* CODE */
+/* ===================== */
 
 pre {
   background: #111;
-  padding: 0.8rem 1rem;
+  padding: 0.9rem 1rem;
   border: 1px solid #222;
   border-radius: 6px;
   overflow-x: auto;
   font-size: 0.9rem;
 }
 
+/* ===================== */
+/* FOOTER */
+/* ===================== */
+
 .footer {
   border-top: 1px solid #111;
   text-align: center;
   padding: 2rem 0;
   color: #666;
+  margin-top: 4rem;
 }
