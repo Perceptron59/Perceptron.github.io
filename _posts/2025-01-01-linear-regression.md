@@ -1,6 +1,11 @@
 ---
-layout: post
+layout: single
 title: "The Essence of Linear Regression"
+date: 2025-01-01
+author: Perceptron
+toc: true
+toc_label: "On This Page"
+toc_icon: "brain"
 ---
 
 The Essence of Linear Regression
