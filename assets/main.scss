@@ -3,20 +3,27 @@
 
 @import "minimal-mistakes";
 
+/* Force pure black theme */
 body {
-  background-color: #000000 !important;
+  background-color: #000000;
 }
 
-a {
-  color: #ffffff !important;
+/* Remove teal accent */
+a,
+.archive__item-title a {
+  color: #ffffff;
 }
 
 a:hover {
-  color: #aaaaaa !important;
+  color: #cccccc;
 }
 
-.page__content,
-.archive__item-excerpt,
-.archive__item-title a {
-  color: #e6e6e6 !important;
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+/* Recent Posts section */
+.archive__subtitle {
+  color: #ffffff;
 }
