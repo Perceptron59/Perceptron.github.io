@@ -1,40 +1,19 @@
 ---
 ---
 
-/* ============================= */
-/* OVERRIDE THEME VARIABLES HERE */
-/* ============================= */
-
-$background-color: #000000 !default;
-$text-color: #e6e6e6 !default;
-$muted-text-color: #999999 !default;
-$link-color: #dcdcdc !default;
-$link-color-hover: #ffffff !default;
-$border-color: #222222 !default;
-
-/* Import theme AFTER overriding variables */
 @import "minimal-mistakes";
 
-/* ============================= */
-/* ADDITIONAL LAYOUT REFINEMENT  */
-/* ============================= */
+/* Minimal refinements only */
+
+body {
+  background-color: #000 !important;
+}
 
 .page {
-  max-width: 1200px;
+  max-width: 1150px;
 }
 
 .page__content {
-  font-size: 1.08rem;
-  line-height: 1.85;
-  max-width: 750px;
-}
-
-pre {
-  background-color: #111111;
-  border: 1px solid #222;
-  border-radius: 8px;
-}
-
-.sidebar {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
 }
