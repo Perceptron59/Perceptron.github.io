@@ -3,6 +3,10 @@
 
 @import "minimal-mistakes";
 
+.page {
+  max-width: 800px;
+  margin: auto;
+}
 /* Force pure black theme */
 body {
   background-color: #000000;
