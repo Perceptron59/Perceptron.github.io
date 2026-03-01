@@ -8,14 +8,9 @@
 </head>
 
 <body>
-<script>
-  MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-  };
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 <header class="navbar">
-  <div class="nav-container">
+  <div class="nav-inner">
     <div class="logo">
       <a href="/">{{ site.title }}</a>
     </div>
@@ -26,9 +21,20 @@
   </div>
 </header>
 
-<main class="content">
-  {{ content }}
-</main>
+<div class="layout">
+  <aside class="sidebar">
+    <h3>Posts</h3>
+    <ul>
+      {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <main class="main-content">
+    {{ content }}
+  </main>
+</div>
 
 <footer class="footer">
   © 2026 {{ site.title }}
