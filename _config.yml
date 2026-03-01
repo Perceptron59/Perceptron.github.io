@@ -1,0 +1,6 @@
+title: Your Blog Name
+description: Machine Learning, Mathematics, and AI
+theme: minima
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
