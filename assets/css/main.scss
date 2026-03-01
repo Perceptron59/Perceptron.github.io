@@ -1,12 +1,34 @@
 ---
 ---
 
-/* Override Minimal Mistakes variables BEFORE importing theme */
-$background-color: #000000;
-$text-color: #e6e6e6;
-$link-color: #ffffff;
-$link-color-hover: #cccccc;
-$border-color: #222222;
-
-/* Import theme after variable overrides */
 @import "minimal-mistakes";
+
+/* FORCE BLACK THEME */
+
+body {
+  background-color: #000000 !important;
+  color: #e6e6e6 !important;
+}
+
+.page,
+.page__content,
+.masthead,
+.site-footer {
+  background-color: #000000 !important;
+}
+
+a {
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #cccccc !important;
+}
+
+hr {
+  border-color: #222222 !important;
+}
+
+.sidebar {
+  background-color: #000000 !important;
+}
