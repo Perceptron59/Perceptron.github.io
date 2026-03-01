@@ -1,6 +1,6 @@
 ---
-layout: home
-author_profile: true
+layout: archive
+title: "Home"
 ---
 
 Welcome to my space where I break down Machine Learning,
