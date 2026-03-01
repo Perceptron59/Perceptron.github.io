@@ -1,33 +1,12 @@
 ---
 ---
 
+/* Override Minimal Mistakes variables BEFORE importing theme */
+$background-color: #000000;
+$text-color: #e6e6e6;
+$link-color: #ffffff;
+$link-color-hover: #cccccc;
+$border-color: #222222;
+
+/* Import theme after variable overrides */
 @import "minimal-mistakes";
-
-.page {
-  max-width: 800px;
-  margin: auto;
-}
-/* Force pure black theme */
-body {
-  background-color: #000000;
-}
-
-/* Remove teal accent */
-a,
-.archive__item-title a {
-  color: #ffffff;
-}
-
-a:hover {
-  color: #cccccc;
-}
-
-/* Headings */
-h1, h2, h3, h4 {
-  color: #ffffff;
-}
-
-/* Recent Posts section */
-.archive__subtitle {
-  color: #ffffff;
-}
