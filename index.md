@@ -5,7 +5,6 @@ sidebar:
   nav: "main"
 ---
 
-# Perceptron.ai
 
 Applied AI · Machine Learning · Mathematics
 
