@@ -1,156 +1,40 @@
 ---
 ---
 
+/* ============================= */
+/* OVERRIDE THEME VARIABLES HERE */
+/* ============================= */
+
+$background-color: #000000 !default;
+$text-color: #e6e6e6 !default;
+$muted-text-color: #999999 !default;
+$link-color: #dcdcdc !default;
+$link-color-hover: #ffffff !default;
+$border-color: #222222 !default;
+
+/* Import theme AFTER overriding variables */
 @import "minimal-mistakes";
 
 /* ============================= */
-/* GLOBAL DARK THEME FOUNDATION  */
-/* ============================= */
-
-body {
-  background-color: #000000 !important;
-  color: #e6e6e6 !important;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-}
-
-/* Remove any theme bluish backgrounds */
-.masthead,
-.page__footer,
-.sidebar,
-.greedy-nav {
-  background-color: #000000 !important;
-}
-
-/* Links */
-a {
-  color: #dcdcdc !important;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffffff !important;
-  text-decoration: underline;
-}
-
-/* ============================= */
-/* LAYOUT WIDTH CONTROL          */
+/* ADDITIONAL LAYOUT REFINEMENT  */
 /* ============================= */
 
 .page {
-  max-width: 1200px !important;
+  max-width: 1200px;
 }
 
 .page__content {
   font-size: 1.08rem;
   line-height: 1.85;
-  max-width: 720px;
+  max-width: 750px;
 }
 
-/* ============================= */
-/* TITLES                        */
-/* ============================= */
-
-.page__title {
-  font-size: 2.3rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+pre {
+  background-color: #111111;
+  border: 1px solid #222;
+  border-radius: 8px;
 }
-
-h2 {
-  margin-top: 2.5rem;
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.4rem;
-}
-
-h3 {
-  margin-top: 2rem;
-}
-
-/* ============================= */
-/* SIDEBAR STYLING               */
-/* ============================= */
 
 .sidebar {
   font-size: 0.95rem;
-  padding-right: 2rem;
-}
-
-.sidebar .nav__title {
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  margin-top: 1.8rem;
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.3rem;
-}
-
-.sidebar .nav__items a {
-  color: #bfbfbf !important;
-}
-
-.sidebar .nav__items a:hover {
-  color: #ffffff !important;
-}
-
-/* ============================= */
-/* TOC (RIGHT SIDE)              */
-/* ============================= */
-
-.toc {
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.toc a {
-  color: #aaaaaa !important;
-}
-
-.toc a:hover {
-  color: #ffffff !important;
-}
-
-/* ============================= */
-/* CODE BLOCKS                   */
-/* ============================= */
-
-pre {
-  background-color: #111111 !important;
-  border: 1px solid #222;
-  border-radius: 8px;
-  padding: 1rem !important;
-  overflow-x: auto;
-}
-
-code {
-  background-color: #111111 !important;
-}
-
-/* ============================= */
-/* NAVBAR CLEANUP                */
-/* ============================= */
-
-.greedy-nav .visible-links a {
-  color: #dcdcdc !important;
-}
-
-.greedy-nav .visible-links a:hover {
-  color: #ffffff !important;
-}
-
-/* ============================= */
-/* FOOTER                        */
-/* ============================= */
-
-.page__footer {
-  border-top: 1px solid #111;
-  font-size: 0.85rem;
-  color: #888888;
-}
-
-/* ============================= */
-/* REMOVE THEME ACCENT COLORS    */
-/* ============================= */
-
-.btn,
-.archive__item-title a {
-  color: #e6e6e6 !important;
 }
